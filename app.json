@@ -1,7 +1,7 @@
 {
-  "name": "King-Userbot",
-  "description": "[King-Userbot] USERBOT TELEGRAM.",
-  "logo": "https://telegra.ph/file/1bf2eacc0f1aaca83eaa5.jpg",
+  "name": "Alpha-userbot",
+  "description": "[Alpha-userbot] USERBOT TELEGRAM.",
+  "logo": "https://imgbb.online/images/2021/06/05/logo_1cc30bc7fdf0ec88b.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/apisuserbot/King-Userbot",
-  "telegram": "https://t.me/PacarFerdilla",
-  "success_url": "https://t.me/PacarFerdilla",
+  "repository": "https://github.com/zeeoneofc/Alpha-userbot",
+  "telegram": "https://t.me/zeeone_ofc",
+  "success_url": "https://t.me/zeeone_ofc",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di repl caranya ada di repo, jika tidak tau bisa ke @KingUserbotSupport lalu ketik #string",
+      "description": "Dapatkan String Session di repl caranya ada di repo, jika tidak tau bisa ke @alphabot_support lalu ketik #string",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️",
+      "value": "ALPHA-USERBOT",
       "required": false
     },
     "ALIVE_NAME": {
