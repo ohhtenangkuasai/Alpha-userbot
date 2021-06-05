@@ -43,7 +43,7 @@ Atau Bisa Gabung Ke Grup Support Alphabot -> [TEKAN DISINI](https://t.me/alphabo
 ## <p align="center">DEPLOY ALPHA-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/zeeone-star/Alpha-userbot/tree/Lord-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/zeeoneofc/Alpha-userbot/tree/Alpha-userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
