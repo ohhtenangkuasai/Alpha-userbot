@@ -51,19 +51,19 @@ Atau Bisa Gabung Ke Grup Support Alphabot -> [TEKAN DISINI](https://t.me/alphabo
 ## Credit
 TERIMAKASIH UNTUK
 
-* [Apis](https://github.com/apisuserbot) - King-Userbot
-* [Alvin](https://github.com/Zora24) - Lord Userbot
-* [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
-* [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
-* [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
-* [Mr.Miss](https://github.com/keselekpermen69) - UserButt
-* [adekmaulana](https://github.com/adekmaulana) - ProjectBish
-* [MoveAngel](https://github.com/MoveAngel) - One4uBot
-* [AidilAryanto](https://github.com/aidilaryanto) - ProjectDils 
-* [Alfianandaa](https://github.com/alfianandaa/ProjectAlf) - ProjectAlf
-* [AnggaR69s](https://github.com/GengKapak/DCLXVI) - DCLXVI
-* [kandnub](https://github.com/kandnub) - TG-UserBot
-* [༺αиυвιѕ༻](https://github.com/Dark-Princ3) - X-tra-Telegram
-* [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
-* [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
+* [```Apis```](https://github.com/apisuserbot) 
+* [```Alvin```](https://github.com/Zora24) 
+* [```RaphielGang```](https://github.com/RaphielGang) 
+* [```AvinashReddy3108```](https://github.com/AvinashReddy3108) 
+* [```Mkaraniya```](https://github.com/mkaraniya) & [```Dev73```](https://github.com/Devp73) 
+* [```Mr.Miss```](https://github.com/keselekpermen69) 
+* [```adekmaulana```](https://github.com/adekmaulana) 
+* [```MoveAngel```](https://github.com/MoveAngel) 
+* [```AidilAryanto```](https://github.com/aidilaryanto)  
+* [```Alfianandaa```](https://github.com/alfianandaa/ProjectAlf) 
+* [```AnggaR69s```](https://github.com/GengKapak/DCLXVI) 
+* [```kandnub```](https://github.com/kandnub) 
+* [```༺αиυвιѕ༻```](https://github.com/Dark-Princ3) 
+* [```Sahyam2019```](https://github.com/sahyam2019/oub-remix) 
+* [```TeamUserge```](https://github.com/UsergeTeam/Userge) 
 * DAN BANYAK LAGI 
