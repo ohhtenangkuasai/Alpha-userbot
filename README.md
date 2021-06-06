@@ -2,17 +2,17 @@
 
 
 <p align="center">
-  <a href="https://github.com/zeeone-star/Lord-Userbot/fork">
-    <img src="https://img.shields.io/github/forks/zeeone-star/Lord-Userbot?label=Fork&style=social">
+  <a href="https://github.com/zeeoneofc/Alpha-userbot/fork">
+    <img src="https://img.shields.io/github/forks/zeeoneofc/Alpha-userbot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/zeeone-star/Lord-Userbot">
-    <img src="https://img.shields.io/github/stars/zeeone-star/Lord-Userbot?style=social">
+  <a href="https://github.com/zeeoneofc/Alpha-userbot">
+    <img src="https://img.shields.io/github/stars/zeeoneofc/Alpha-userbot?style=social">
   </a>
 </p>  
 
 # Alpha Userbot
-![Alpha Userbot Logo](https://i.ibb.co/0KxkWXC/IMG-20210429-081906-169.jpg)
+![Alpha Userbot Logo](https://k.top4top.io/p_19831kdsf1.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
