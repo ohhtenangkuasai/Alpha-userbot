@@ -125,7 +125,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"═⎆ **Sisa Waktu:** "
                     f"`{uptime}` \n"
-                    f"**✠➲ King:** `{ALIVE_NAME}`" % (duration))
+                    f"**✠➲ User:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
@@ -205,7 +205,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️\n\n"
+                   "✧ **BOT:** 💠 Alpha-userbot 💠\n\n"
                    f" ━━━━━━━━━━━━━━━━━ ")
 
 
