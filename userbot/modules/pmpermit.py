@@ -104,7 +104,7 @@ async def permitpm(event):
                             BOTLOG_CHATID,
                             "Terjadi Masalah Saat Menghitung Private Message, Mohon Restart Bot!",
                         )
-                    return LOGS.info("CountPM tidak dibunyikan king")
+                    return LOGS.info("CountPM tidak dibunyikan")
 
                 await event.client(BlockRequest(event.chat_id))
                 await event.client(ReportSpamRequest(peer=event.chat_id))
@@ -397,7 +397,7 @@ async def permitpm(event):
     if event.is_private:
         if not pm_permit_sql.is_approved(chats.id):
             pm_permit_sql.approve(
-                chats.id, "`Developer King Apis Telah Mengirimi Anda Pesan 😯`")
+                chats.id, "`Developer Alpha Telah Mengirimi Anda Pesan 😯`")
             await borg.send_message(
                 chats, "**Menerima Pesan!, Pengguna Terdeteksi Adalah Developer Alphabot**"
             )
