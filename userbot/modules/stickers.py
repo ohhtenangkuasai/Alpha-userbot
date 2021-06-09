@@ -75,7 +75,7 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            return await args.edit("`File Tidak Didukung King!`")
+            return await args.edit("`File Tidak Didukung!`")
     else:
         return await args.edit("`Maaf, Saya Gagal Mengambil Sticker Ini!`")
 
