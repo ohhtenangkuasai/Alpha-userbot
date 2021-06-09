@@ -768,7 +768,7 @@ async def thicc(bolded):
         get = await bolded.get_reply_message()
         args = get.text
     if not args:
-        await bolded.edit("`King, Teks Apa Yang Harus Saya Bold Kan?`")
+        await bolded.edit("`Teks Apa Yang Harus Saya Bold Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -815,7 +815,7 @@ async def mediv(medievalx):
         get = await medievalx.get_reply_message()
         args = get.text
     if not args:
-        await medievalx.edit("`King, Teks Apa Yang Harus Saya Medibold Kan?`")
+        await medievalx.edit("`Teks Apa Yang Harus Saya Medibold Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -862,7 +862,7 @@ async def doublex(doublestrucktx):
         get = await doublestrucktx.get_reply_message()
         args = get.text
     if not args:
-        await doublestrucktx.edit("`King, Teks Apa Yang Harus Saya Double Struck Kan?`")
+        await doublestrucktx.edit("`Teks Apa Yang Harus Saya Double Struck Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -909,7 +909,7 @@ async def cursive2(cursivebolded):
         get = await cursivebolded.get_reply_message()
         args = get.text
     if not args:
-        await cursivebolded.edit("`King, Teks Apa Yang Harus Saya Cursive Bold Kan?`")
+        await cursivebolded.edit("`Teks Apa Yang Harus Saya Cursive Bold Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -957,7 +957,7 @@ async def medival22(medivallite):
         get = await medivallite.get_reply_message()
         args = get.text
     if not args:
-        await medivallite.edit("`King, Teks Apa Yang Harus Saya Medival Kan?`")
+        await medivallite.edit("`Teks Apa Yang Harus Saya Medival Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -1004,7 +1004,7 @@ async def xcursive(cursivelite):
         get = await cursivelite.get_reply_message()
         args = get.text
     if not args:
-        await cursivelite.edit("`King, Teks Apa Yang Harus Saya Cursive Kan?`")
+        await cursivelite.edit("`Teks Apa Yang Harus Saya Cursive Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
