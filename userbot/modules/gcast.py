@@ -33,7 +33,7 @@ CMD_HELP.update(
     {
         "gcast": "**✘ Plugin : **`gcast`\
         \n\n  •  **Perintah :** `.gcast` <text>`\
-        \n  •  **Function : **Mengirim  Global Broadcast pesan ke Seluruh Grup yang king masuki.\
+        \n  •  **Function : **Mengirim  Global Broadcast pesan ke Seluruh Grup yang Alpha masuki.\
     "
     }
 )
