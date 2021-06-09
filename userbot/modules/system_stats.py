@@ -357,7 +357,7 @@ async def redis(alive):
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🤴 `ALPHA USER     :`{DEFAULTUSER} \n"
+        f"╟◈ 🤴 `USER     :`{DEFAULTUSER} \n"
         f"╟◈ 🔎 `Username :`@{user.username} \n"
         f"╟◈ ⚙️ `Telethon :`v. {version.__version__} \n"
         f"╟◈ 🐍 `Python   :`v. {python_version()} \n"
