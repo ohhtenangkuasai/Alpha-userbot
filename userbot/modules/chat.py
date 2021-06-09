@@ -152,7 +152,7 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh King Telah Membisukan Obrolan!`")
+    await mute_e.edit("`Ssshssh Alpha Telah Membisukan Obrolan!`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
@@ -240,7 +240,7 @@ async def get_chatinfo(event):
             await event.edit("`Grup/Channel Tidak Valid`")
             return None
         except ChannelPrivateError:
-            await event.edit("`Ini Adalah Grup/Channel Privasi Atau King Dibanned Dari Sana`")
+            await event.edit("`Ini Adalah Grup/Channel Privasi Atau Alpha Dibanned Dari Sana`")
             return None
         except ChannelPublicGroupNaError:
             await event.edit("`Channel Atau Supergrup Tidak Ditemukan`")
@@ -474,9 +474,9 @@ CMD_HELP.update(
     {
         "kickme": "**✘ Plugin : **`kickme`\
         \n\n  •  **Perintah :** `.kickme`\
-        \n  •  **Function : **Keluar grup dengan menampilkan pesan `⚡️ King Telah Meninggalkan Grup...`\
+        \n  •  **Function : **Keluar grup dengan menampilkan pesan `⚡️ Alpha Telah Meninggalkan Grup...`\
         \n\n  •  **Perintah :** `.leave`\
-        \n  •  **Function : **Keluar grup dengan menampilkan pesan `⚡️ King Telah Keluar Grup...`\
+        \n  •  **Function : **Keluar grup dengan menampilkan pesan `⚡️ Alpha Telah Keluar Grup...`\
         \n\n  •  **Perintah :** `.keluar`\
         \n  •  **Function : **Keluar grup dengan menampilkan pesan lihat sendiri\
     "
