@@ -224,7 +224,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:alphaalive|kingon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:alphaalive|alphaon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -270,9 +270,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"𝗫 ★⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡★ 𝗫 \n"
+        f"𝗫 ★💠 Alpha-userbot 💠★ 𝗫 \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"╟ 🤴 KING     : {DEFAULTUSER}\n"
+        f"╟ 🤴 User     : {DEFAULTUSER}\n"
         f"╟ 🔎 Username : @{user.username}\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"╟◈ ⚙️ `Telethon :`v {version.__version__} \n"
@@ -406,7 +406,7 @@ async def redis(alive):
         f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
         f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
-        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/alphabot_support) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/zeeone_ofc) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗞𝗶𝗻𝗴](t.me/zeeoneee)")
+        f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/alphabot_support) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/zeeone_ofc) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿](t.me/zeeoneee)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
