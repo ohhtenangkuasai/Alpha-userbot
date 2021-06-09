@@ -67,12 +67,12 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Mematikan King-Userbot....`")
+    await event.edit("`Mematikan Alpha-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`King-Userbot Telah Dimatikan`")
+                                        "`Alpha-Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
@@ -95,7 +95,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "★ **Repo dan file userbot** ★\n"
-        "\n☇ [Repo ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️](https://github.com/zeeoneofc/Alpha-userbot/blob/Alpha-userbot/README.md)"
+        "\n☇ [Repo 💠 Alpha-userbot 💠](https://github.com/zeeoneofc/Alpha-userbot/blob/Alpha-userbot/README.md)"
         "\n☇ [Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n☇ [Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n☇ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -124,7 +124,7 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         f"   ✘ **i'm** {DEFAULTUSER} **using userbot** ✘   \n"
         "         🔥 __Thanks for userbot__ 🔥   \n"
-        "✣ **Repo Userbot :** [King-Userbot](https://github.com/zeeoneofc/Alpha-userbot) \n"
+        "✣ **Repo Userbot :** [Alpha-Userbot](https://github.com/zeeoneofc/Alpha-userbot) \n"
         "✣ **Grup Support :** [Klik Disini](https://t.me/alphabot_support) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/zeeone_ofc) \n"
         "✣ **Pemilik :** [Developer](https://t.me/zeeoneee) \n"
@@ -140,7 +140,7 @@ async def repo_is_here(wannasee):
         "✣ **Get string session :** [String Session](https://replit.com/@zeeone/String-Session#main.py) \n"
         "✣ **Grup Support :** [Klik Disini](https://t.me/alphabot_support) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/zeeone_ofc) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/zeeoneee) \n"
+        "✣ **Pemilik :** [Developer](https://t.me/zeeoneee) \n"
         "         ✘ **USERBOT TELEGRAM** ✘ ")
 
 
@@ -153,7 +153,7 @@ async def repo_is_here(wannasee):
         "✣ **Tutorial :** [Tutorial Deploy](https://youtu.be/HfcqXjbF4_Q) \n"
         "✣ **Grup Support :** [Klik Disini](https://t.me/alphabot_support) \n"
         "✣ **Channel Support :** [Klik Disini](https://t.me/zeeone_ofc) \n"
-        "✣ **Pemilik :** [Developer King](https://t.me/zeeoneee) \n"
+        "✣ **Pemilik :** [Developer](https://t.me/zeeoneee) \n"
         "          ✘ **USERBOT TELEGRAM** ✘ ")
 
 
