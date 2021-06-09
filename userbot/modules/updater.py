@@ -63,7 +63,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy King Userbot dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Alpha Userbot dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
