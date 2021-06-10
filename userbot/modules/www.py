@@ -132,7 +132,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"** •  Uᴘᴛɪᴍᴇ  :** "
                     f"`{uptime}` \n"
-                    f"** •  Owner  :** `{ALIVE_NAME}` \n" 
+                    f"** •  Owner  :** `{ALIVE_NAME}` \n"
                     f"** •  ʙᴏᴛ ᴠᴇʀ  :** `1.0.0` \n" % (duration))
 
 
@@ -157,7 +157,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"** • ᴏɴʟɪɴᴇ  :** "
                     f"`{uptime}` \n"
-                    f"** • Oᴡɴᴇʀ  :** `{ALIVE_NAME}` \n"% (duration))
+                    f"** • Oᴡɴᴇʀ  :** `{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.uping$")
