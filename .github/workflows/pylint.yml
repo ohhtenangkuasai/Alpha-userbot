@@ -30,5 +30,5 @@ jobs:
           commit_options: '--no-verify --signoff'
           repository: .
           commit_user_name: zeeoneofc
-          commit_user_email: wandiriswan368@gmail.com
-          commit_author: zeeoneofc <wandiriswan368@gmail.com>
+          commit_user_email: akuku694@gmail.com
+          commit_author: zeeoneofc <akuku694@gmail.com>
