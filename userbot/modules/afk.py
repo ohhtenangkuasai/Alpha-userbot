@@ -57,7 +57,7 @@ async def set_not_afk(event):
                 shite = await bot.send_message(event.chat_id, file=pic)
                 shites = await bot.send_message(
                     event.chat_id,
-                    f"🔥 **ONLINE**\n**King {ALIVE_NAME} Kembali Online Untuk Chat Telegram**\n**Sejak :** `{total_afk_time}` **Yang Lalu**",
+                    f"🔥 **ONLINE**\n**{ALIVE_NAME} Kembali Online Untuk Chat Telegram**\n**Sejak :** `{total_afk_time}` **Yang Lalu**",
                 )
             else:
                 shite = await bot.send_message(
@@ -252,7 +252,7 @@ CMD_HELP.update(
     {
         "afk": "**✘ Plugin : **`afk`\
         \n\n  •  **Perintah :** `.afk` <alasan> bisa <sambil reply sticker/foto/gif/media>\
-        \n  •  **Function : **Memberi tahu kalau King sedang afk bisa dengan menampilkan media keren ketika seseorang menandai atau membalas salah satu pesan atau dm Anda.\
+        \n  •  **Function : **Memberi tahu kalau Alpha sedang afk bisa dengan menampilkan media keren ketika seseorang menandai atau membalas salah satu pesan atau dm Anda.\
         \n\n  •  **Perintah :** `.sibuk`\
         \n  •  **Function : **Memberi tahu kalau King sedang SIBUK , dan menguubah nama belakang menjadi ⚡️𝗦𝗜𝗕𝗨𝗞⚡️\
         \n\n  •  **Notes :** __Bila ada orang spam berlebihan ke Anda , tinggal ketik__ `.block`\
