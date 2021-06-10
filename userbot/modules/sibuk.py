@@ -28,7 +28,7 @@ AFKSTR = [
     f"**✵ ALPHABOT ✵**\n╭✠╼━━━━━━━━━━━━ \n┣❑ {ALIVE_NAME} __Lagi Sibuk__\n╰✠╼━━━━━━━━━",
     f"**✵ ALPHABOT ✵**\n╭✠╼━━━━━━━━━━━━ \n┣❑ {ALIVE_NAME} __Lagi Sibuk__\n╰✠╼━━━━━━━━━",
     f"**✵ ALPHABOT ✵**\n╭✠╼━━━━━━━━━━━━ \n┣❑ {ALIVE_NAME} __Lagi Sibuk__\n╰✠╼━━━━━━━━━",
-    ]
+]
 
 
 global USER_AFK  # pylint:disable=E0602
@@ -173,7 +173,7 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"**SIBUK**\n╭✠╼━━━━━━━━━━━━ \n┣❑ {ALIVE_NAME} __Masih Sibuk__\n┣❑ ꜱᴇᴊᴀᴋ: {afk_since}\n┣❑ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━━━━") 
+                        await mention.reply(f"**SIBUK**\n╭✠╼━━━━━━━━━━━━ \n┣❑ {ALIVE_NAME} __Masih Sibuk__\n┣❑ ꜱᴇᴊᴀᴋ: {afk_since}\n┣❑ ᴀʟᴀꜱᴀɴ: {AFKREASON}\n╰✠╼━━━━━━━━━━━━")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
