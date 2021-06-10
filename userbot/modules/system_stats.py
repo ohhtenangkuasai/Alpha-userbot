@@ -165,7 +165,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**★-**💠 Alpha-userbot 💠 Versi:** \n "
+            "**★-**✵ ALPHABOT ✵ Versi:** \n "
             f"heads/Alpha-userbot-0-x634i7u1"
             "\n**★-**Revisi:**\n "
             f"{revout}"
@@ -229,22 +229,21 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"┗┓★ 💠 Alpha-userbot 💠 ★┏┛\n"
+        f"🔥 **✵ ALPHABOT ✵** 🔥 \n"
         f"\n__**{KING_TEKS_KUSTOM}**__\n"
-        f"**━━━━━━━━━━━━━━━━━━━━━**\n"
-        f"★ **✭ Alpha ✭** \n"
-        f"☇ : `{DEFAULTUSER}` \n"
-        f"★ **✭ Username ✭** \n"
-        f"☇ : `@{user.username}` \n"
-        f"╭━━━━━━━━━━━━━━━━━━━━━\n"
-        f"|✶ ⚙️ `Telethon :`Ver {version.__version__} \n"
-        f"|✶ 🐍 `Python   :`Ver {python_version()} \n"
-        f"|✶ 👾 `Bot Ver  :`{BOT_VER} \n"
-        f"|✶ 📂 `Plugins  :`{len(modules)} \n"
-        f"╰╼━━━━━━━━━━━━━━━━━━━━━\n"
-        f"⚡ **Repo Userbot :** [Alpha-userbot](https://github.com/zeeoneofc/Alpha-userbot) \n"
-        f"⚡ **Group Support :** [Klik Disini](https://t.me/alphabot_support) \n"
-        f"⚡ **Pemilik :** [Developer](https://t.me/zeeoneee)")
+        f"╭─ꕥ ⧉ ━━━━━━━━━━ ⧉ ꕥ──✾\n"
+        f"├◪**USER INFO**\n"
+        f"│❒ ᴜꜱᴇʀ     : {DEFAULTUSER}\n"
+        f"│❒ ᴜꜱᴇʀɴᴀᴍᴇ : @{user.username}\n"
+        f"├◪ **BOT INFO**\n"
+        f"│❒ ᴛᴇʟᴇᴛʜᴏɴ :`Ver {version.__version__} \n"
+        f"│❒ ᴘʜʏᴛᴏɴ   :`Ver {python_version()} \n"
+        f"│❒ ʙᴏᴛ ᴠᴇʀ  :`1.0.0` \n"
+        f"│❒ ᴘʟᴜɢɪɴꜱ  :`{len(modules)} \n"
+        f"╰────────────────\n"
+        f"❒ ʀᴇᴘᴏ : [Klik](https://github.com/zeeoneofc/Alpha-userbot) \n"
+        f"❒ ɢʀᴏᴜᴘ : [Klik](https://t.me/alphabot_support) \n"
+        f"❒ ᴏᴡɴᴇʀ : [zeeone](https://t.me/zeeoneee)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -270,21 +269,21 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"𝗫 ★💠 Alpha-userbot 💠★ 𝗫 \n"
-        f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"╟ 🤴 User     : {DEFAULTUSER}\n"
-        f"╟ 🔎 Username : @{user.username}\n"
-        f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
-        f"╟◈ ⚙️ `Telethon :`v {version.__version__} \n"
-        f"╟◈ 🐍 `Python   :`v {python_version()} \n"
-        f"╟◈ 💻 `Branch  :`{UPSTREAM_REPO_BRANCH} \n"
-        f"╟◈ 🛠 `Version  :`{BOT_VER} \n"
-        f"╟◈ 📂 `Plugins  :`{len(modules)} Plugin \n"
-        f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
-        f"◈ **REPO USERBOT  :** [Alpha-userbot](https://github.com/zeeoneofc/Alpha-userbot) \n"
-        f"◈ **GRUP SUPPORT :** [Klik Disini](https://t.me/alphabot_support) \n"
-        f"◈ **PEMILIK :** [Developer](https://t.me/zeeoneee) \n"
-        f"━━━━━━━━━━━━━━━━━━━━━╯")
+        f" **✵ ALPHABOT ✵**\n\n"
+        f"╭─ꕥ ⧉ **USERBOT** ⧉ ꕥ──✾\n"
+        f"├◪ **USER & BOT INFO**\n"
+        f"│❒ ᴜꜱᴇʀ     : {DEFAULTUSER}\n"
+        f"│❒ ᴜꜱᴇʀɴᴀᴍᴇ : @{user.username}\n"
+        f"│❒ ᴛᴇʟᴇᴛʜᴏɴ :`v {version.__version__} \n"
+        f"│❒ ᴘʜʏᴛᴏɴ  :`v {python_version()} \n"
+        f"│❒ ʙʀᴀɴᴄʜ  :`{UPSTREAM_REPO_BRANCH} \n"
+        f"│❒ ᴠᴇʀꜱɪᴏɴ  :`1.0.0` \n"
+        f"│❒ ᴘʟᴜɢɪɴꜱ  :`{len(modules)} Plugin \n"
+        f"├◪ **OTHER INFO**\n"
+        f"│❒ ʀᴇᴘᴏ  : [Klik](https://github.com/zeeoneofc/Alpha-userbot) \n"
+        f"│❒ ɢʀᴏᴜᴘ : [Klik](https://t.me/alphabot_support) \n"
+        f"│❒ ᴏᴡɴᴇʀ : [zeeone](https://t.me/zeeoneee) \n"
+        f"╰────────────────")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -318,57 +317,22 @@ async def redis(alive):
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑..__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑.__")
     await alive.edit("__𝐗...𝐒𝐈𝐒𝐓𝐄𝐌...𝐗__")
-    await alive.edit("💠 ALPHA-USERBOT 💠")
-    await alive.edit("💠 ALPHA-USERBOT 💠                 👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠                👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠               👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠              👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠             👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠            👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠           👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠          👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠         👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠        👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠       👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠      👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠    👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠  👑")
-    await alive.edit("💠 ALPHA-USERBOT 💠👑")
-    await alive.edit("💠 ALPHA-USERBOT 👑")
-    await alive.edit("💠 ALPHA-USERBO👑T💠")
-    await alive.edit("💠 ALPHA-USERB👑OT💠")
-    await alive.edit("💠 ALPHA-USER👑BOT💠")
-    await alive.edit("💠 ALPHA-USE👑RBOT💠")
-    await alive.edit("💠 ALPHA-US👑ERBOT💠")
-    await alive.edit("💠 ALPHA-U👑ESRBOT💠")
-    await alive.edit("💠 ALPHA👑-USERBOT 💠")
-    await alive.edit("💠 ALPH👑A-USERBOT 💠")
-    await alive.edit("💠 ALP👑HA-USERBOT 💠")
-    await alive.edit("💠 A👑LPHA-USERBOT 💠")
-    await alive.edit("💠 ALPHA-USERBOT 💠")
-    await alive.edit("💠")
+    await alive.edit("Sabarrrr")
     await asyncio.sleep(3)
     await alive.edit("😈")
     await asyncio.sleep(3)
     output = (
-        f"**╭╼═✯══════════════✯═╾╮**\n"
-        f" ㅤ**★ 💠 Alpha-userbot 💠 ★** \n"
-        f"**╰╼═✯══════════════✯═╾╯**\n"
-        f"╭╼════════════════════╾╮ \n"
-        f"│  ⇱ **SISTEM ALIVE BOT** ⇲ \n"
-        f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🤴 `USER     :`{DEFAULTUSER} \n"
-        f"╟◈ 🔎 `Username :`@{user.username} \n"
-        f"╟◈ ⚙️ `Telethon :`v. {version.__version__} \n"
-        f"╟◈ 🐍 `Python   :`v. {python_version()} \n"
-        f"╟◈ 🛠️ `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"╟◈ 👾 `Bot Ver  :`v. {BOT_VER} \n"
-        f"╟◈ 📂 `Plugins  :`{len(modules)} Plugins \n"
-        f"┞╼════════════════════╾┤ \n"
-        f"├◈ **Support Terus Repo Kami** \n"
-        f"│    **Dengan Link Di Bawah Ini.** \n"
-        f"╰╼════════════════════╾╯ \n"
-        f"[Repo Userbot](https://github.com/zeeoneofc/Alpha-userbot) | [Grup Support](t.me/alphabot_support) | "
+        f"╭─⧉ **I'M ALIVE**ꕥ──✾\n"
+        f"├◪\n"
+        f"│❒ ᴜꜱᴇʀ     :{DEFAULTUSER} \n"
+        f"│❒ ᴜꜱᴇʀɴᴀᴍᴇ :@{user.username} \n"
+        f"│❒ ᴛᴇʟᴇᴛʜᴏɴ  :v. {version.__version__} \n"
+        f"│❒ ᴘʜʏᴛᴏɴ   :v. {python_version()} \n"
+        f"│❒ ʙʀᴀɴᴄʜ   :{UPSTREAM_REPO_BRANCH} \n"
+        f"│❒ ʙᴏᴛ ᴠᴇʀ  :`1.0.0` \n"
+        f"│❒ ᴘʟᴜɢɪɴꜱ  :{len(modules)} Plugins \n"
+        f"╰───────────────── \n"
+        f"[Repo](https://github.com/zeeoneofc/Alpha-userbot) | [Support](t.me/alphabot_support) | "
         f"[Developer](t.me/zeeoneee)")
     if ALIVE_LOGO:
         try:
@@ -396,16 +360,19 @@ async def redis(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`★ USERBOT HAS BEEN ACTIVE! ★`")
     await asyncio.sleep(3)
-    await alive.edit("⚡")
+    await alive.edit("`Sabar Cok...`")
     await asyncio.sleep(3)
     output = (
-        f"★ [Alpha-userbot](https://github.com/zeeoneofc/Alpha-userbot) **Running Userbot Active!** ★\n\n"
+        f"❈ **Running Userbot Active!** ❈\n\n"
         f"__**{KING_TEKS_KUSTOM}**__\n\n"
-        f"{ALIVE_EMOJI} **User :** `{DEFAULTUSER}` \n"
-        f"{ALIVE_EMOJI} **Plugins :** `{len(modules)} Plugin` \n"
-        f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
-        f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
-        f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
+        f"╭─ꕥ ⧉ **✵ ALPHABOT ✵** ⧉ ꕥ──✾\n"
+        f"├◪\n"
+        f"│❒ ᴜꜱᴇʀ : `{DEFAULTUSER}` \n"
+        f"│❒ ᴘʟᴜɢɪɴꜱ : `{len(modules)} Plugin` \n"
+        f"│❒ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `1.0.0` \n"
+        f"│❒ ᴘʜʏᴛᴏɴ ᴠᴇʀꜱɪᴏɴ : `{python_version()}` \n"
+        f"│❒ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `{version.__version__}` \n"
+        f"╰────────────────\n"
         f"[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/alphabot_support) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/zeeone_ofc) | [𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿](t.me/zeeoneee)")
     if ALIVE_LOGO:
         try:
