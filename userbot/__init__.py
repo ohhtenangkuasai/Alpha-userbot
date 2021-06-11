@@ -171,10 +171,10 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "King-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Alpha-Userbot")
 
 # Bot version
-BOT_VER = os.environ.get("BOT_VER", "4.0")
+BOT_VER = os.environ.get("BOT_VER", "1.0.0")
 
 # Default .alive username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -400,7 +400,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("💠 Alpha-userbot 💠 , Buat Userbot Mu Sendiri Dengan cara [Tekan Disini](https://github.com/zeeoneofc/Alpha-userbot.git)")
+                await event.reply("**✵ ALPHABOT ✵** , Buat Userbot Mu Sendiri Dengan cara [Tekan Disini](https://github.com/zeeoneofc/Alpha-userbot.git)")
             else:
                 await event.reply(f"`👋🏻 Hai  {ALIVE_NAME}\n\nApa Kabarmu? ^_^`")
 
@@ -416,7 +416,7 @@ with bot:
                     text="{}"
                     f"\n\n◎› **User** {DEFAULTUSER}\n\n"
                     "◎› **Plugins :** `{}`\n◎› **Menu Plugins ↯** \n".format(
-                        "**💠 Alpha-userbot 💠**",
+                        "**✵ ALPHABOT ✵**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -424,13 +424,13 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan 💠 Alpha-userbot 💠 ",
+                    "Bantuan **✵ ALPHABOT ✵** ",
                     text="◎› Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**💠 Alpha-userbot 💠**",
+                    "**✵ ALPHABOT ✵**",
                     text="""**Anda Bisa Membuat Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/zeeone_ofc)""",
                     buttons=[
                         [
