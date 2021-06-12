@@ -122,39 +122,39 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        f"   ✘ **i'm** {DEFAULTUSER} **using userbot** ✘   \n"
-        "         🔥 __Thanks for userbot__ 🔥   \n"
-        "✣ **Repo Userbot :** [Alpha-Userbot](https://github.com/zeeoneofc/Alpha-userbot) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/alphabot_support) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/zeeone_ofc) \n"
-        "✣ **Pemilik :** [Developer](https://t.me/zeeoneee) \n"
-        "         ✘ **USERBOT TELEGRAM** ✘ ")
+        "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+        "    **✵ MY REPOSITORY ✵**\n"
+        "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
+        "✣ ʀᴇᴘᴏ   : [Alphabot](https://github.com/zeeoneofc/Alpha-userbot) \n"
+        "✣ ꜱᴜᴘᴘᴏʀᴛ : [Klik](https://t.me/alphabot_support) \n"
+        "✣ ᴄʜᴀɴɴᴇʟ : [Klik](https://t.me/zeeone_ofc) \n"
+        "✣ ᴏᴡɴᴇʀ  : [ZEEONE](https://t.me/zeeoneee)")
 
 
 @register(outgoing=True, pattern="^.string$")
 async def repo_is_here(wannasee):
     """ For .string command, just returns the string URL. """
     await wannasee.edit(
-        "         ✘ **String Session Userbot** ✘   \n"
-        "          🔥 __Thanks for userbot__ 🔥  \n"
-        "✣ **Get string session :** [String Session](https://replit.com/@zeeone/String-Session#main.py) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/alphabot_support) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/zeeone_ofc) \n"
-        "✣ **Pemilik :** [Developer](https://t.me/zeeoneee) \n"
-        "         ✘ **USERBOT TELEGRAM** ✘ ")
+        "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+        "    **✵ STRING SESSION ✵**\n"
+        "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
+        "✣ ꜱᴛʀɪɴɢ : [String](https://replit.com/@zeeone/String-Session#main.py) \n"
+        "✣ ꜱᴜᴘᴘᴏʀᴛ: [Klik](https://t.me/alphabot_support) \n"
+        "✣ ᴄʜᴀɴɴᴇʟ: [Klik](https://t.me/zeeone_ofc) \n"
+        "✣ ᴏᴡɴᴇʀ : [ZEEONE](https://t.me/zeeoneee)")
 
 
 @register(outgoing=True, pattern="^.tutorial$")
 async def repo_is_here(wannasee):
     """ For .tutorial command, just returns the tutorial URL. """
     await wannasee.edit(
-        "         ✘ **Tutorial Using Userbot** ✘   \n"
-        "          🔥 __Thanks for userbot__ 🔥  \n"
-        "✣ **Tutorial :** [Tutorial Deploy](https://youtu.be/HfcqXjbF4_Q) \n"
-        "✣ **Grup Support :** [Klik Disini](https://t.me/alphabot_support) \n"
-        "✣ **Channel Support :** [Klik Disini](https://t.me/zeeone_ofc) \n"
-        "✣ **Pemilik :** [Developer](https://t.me/zeeoneee) \n"
-        "          ✘ **USERBOT TELEGRAM** ✘ ")
+        "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+        "   **✵ TUTORIAL ✵**\n"
+        "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
+        "✣ ᴛᴜᴛᴏʀɪᴀʟ : [Tutorial](https://youtu.be/HfcqXjbF4_Q) \n"
+        "✣ ꜱᴜᴘᴘᴏʀᴛ : [Klik](https://t.me/alphabot_support) \n"
+        "✣ ᴄʜᴀɴɴᴇʟ : [Klik](https://t.me/zeeone_ofc) \n"
+        "✣ ᴏᴡɴᴇʀ : [ZEEONE](https://t.me/zeeoneee) ")
 
 
 @register(outgoing=True, pattern="^.raw$")
