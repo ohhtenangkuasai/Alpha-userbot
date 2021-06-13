@@ -136,7 +136,7 @@ async def repo_is_here(wannasee):
     """ For .string command, just returns the string URL. """
     await wannasee.edit(
         "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        "**✵ STRING SESSION ✵**\n"
+        "      **✵ STRING SESSION ✵**\n"
         "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         "✣ ꜱᴛʀɪɴɢ : [String](https://replit.com/@zeeone/String-Session#main.py) \n"
         "✣ ꜱᴜᴘᴘᴏʀᴛ: [Klik](https://t.me/alphabot_support) \n"
