@@ -233,17 +233,17 @@ async def amireallyalive(alive):
         f"\n__**{KING_TEKS_KUSTOM}**__\n"
         f"╭─ꕥ ⧉ ━━━━━━━━━━ ⧉ ꕥ──✾\n"
         f"├◪**USER INFO**\n"
-        f"│❒ ᴜꜱᴇʀ     : {DEFAULTUSER}\n"
+        f"│❒ ᴜꜱᴇʀ     : `{DEFAULTUSER}`\n"
         f"│❒ ᴜꜱᴇʀɴᴀᴍᴇ : @{user.username}\n"
         f"├◪ **BOT INFO**\n"
-        f"│❒ ᴛᴇʟᴇᴛʜᴏɴ :`Ver {version.__version__} \n"
-        f"│❒ ᴘʜʏᴛᴏɴ   :`Ver {python_version()} \n"
+        f"│❒ ᴛᴇʟᴇᴛʜᴏɴ :`Ver {version.__version__}` \n"
+        f"│❒ ᴘʜʏᴛᴏɴ   :`Ver {python_version()}` \n"
         f"│❒ ʙᴏᴛ ᴠᴇʀ  :`1.0.0` \n"
         f"│❒ ᴘʟᴜɢɪɴꜱ  :`{len(modules)} \n"
         f"╰────────────────\n"
-        f"❒ ʀᴇᴘᴏ : [Klik](https://github.com/zeeoneofc/Alpha-userbot) \n"
-        f"❒ ɢʀᴏᴜᴘ : [Klik](https://t.me/alphabot_support) \n"
-        f"❒ ᴏᴡɴᴇʀ : [zeeone](https://t.me/zeeoneee)")
+        f" ❒ ʀᴇᴘᴏ : [Klik](https://github.com/zeeoneofc/Alpha-userbot) \n"
+        f" ❒ ɢʀᴏᴜᴘ : [Klik](https://t.me/alphabot_support) \n"
+        f" ❒ ᴏᴡɴᴇʀ : [zeeone](https://t.me/zeeoneee)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
