@@ -123,7 +123,7 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        "    **✵ MY REPOSITORY ✵**\n"
+        "       **✵ MY REPOSITORY ✵**\n"
         "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         "✣ ʀᴇᴘᴏ   : [Alphabot](https://github.com/zeeoneofc/Alpha-userbot) \n"
         "✣ ꜱᴜᴘᴘᴏʀᴛ : [Klik](https://t.me/alphabot_support) \n"
@@ -136,7 +136,7 @@ async def repo_is_here(wannasee):
     """ For .string command, just returns the string URL. """
     await wannasee.edit(
         "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        "    **✵ STRING SESSION ✵**\n"
+        "**✵ STRING SESSION ✵**\n"
         "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         "✣ ꜱᴛʀɪɴɢ : [String](https://replit.com/@zeeone/String-Session#main.py) \n"
         "✣ ꜱᴜᴘᴘᴏʀᴛ: [Klik](https://t.me/alphabot_support) \n"
@@ -149,7 +149,7 @@ async def repo_is_here(wannasee):
     """ For .tutorial command, just returns the tutorial URL. """
     await wannasee.edit(
         "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        "   **✵ TUTORIAL ✵**\n"
+        "             **✵ TUTORIAL ✵**\n"
         "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         "✣ ᴛᴜᴛᴏʀɪᴀʟ : [Tutorial](https://youtu.be/HfcqXjbF4_Q) \n"
         "✣ ꜱᴜᴘᴘᴏʀᴛ : [Klik](https://t.me/alphabot_support) \n"
