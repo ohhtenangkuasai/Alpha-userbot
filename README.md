@@ -49,7 +49,7 @@ Atau Bisa Gabung Ke Grup Support Alphabot -> [TEKAN DISINI](https://t.me/alphabo
 </p>
 
 ## Credit
-TERIMAKASIH UNTUK
+TERIMA KASIH UNTUK
 
 * [```Apis```](https://github.com/apisuserbot) 
 * [```Alvin```](https://github.com/Zora24) 
